@@ -125,7 +125,7 @@ print(miss_elizabeth['Age'])
 male_count = 0
 female_count = 0
 
-for i in range(len(train_df)) :
+for i in range(len(train_df)):
 # 이건 for문입니다. 반복문이라고 합니다.
 # 저는 목적이 이루어질때까지 계속되기 때문에 for라는 이름이 붙은 것 같아요.
 # in은 i가 될 대상들입니다. 

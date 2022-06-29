@@ -32,7 +32,7 @@ import pandas as pd
 # 이제 읽어볼까요.
 # 파일을 읽으려면 위치를 알려줘야 합니다.
 # 파일의 위치, 주소는 "문자 타입"의 데이터입니다. 당연하죠?
-file_1 = 'D:/HJH/20220629 titanic keggle/Dataset/gender_submission.csv'
+file_1 = 'C:/Users/Acoustics/Desktop/Ramis/20220629 titanic keggle/Dataset/gender_submission.csv'
 # 이렇게 하면 파일의 주소를 저장시킬 수 있는 것입니다.
 
 # 이건 csv니까, csv를 읽는 함수(기능)을 사용합니다.
@@ -50,7 +50,7 @@ gender_submission_df = pd.read_csv(file_1)
 # 읽어낼 수 있도록 하고 싶습니다.
 
 # 저의 경우, 폴더의 주소는 아래와 같겠죠.
-directory = 'D:/HJH/20220629 titanic keggle/Dataset/'
+directory = 'C:/Users/Acoustics/Desktop/Ramis/20220629 titanic keggle/Dataset/'
 
 # 이제 파일 이름을 각각 지정해주면,
 filename_2 = 'train.csv'
